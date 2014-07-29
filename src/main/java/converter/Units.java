@@ -5,7 +5,7 @@ package converter;
  */
 public enum Units {
     Meter(1d),
-    CentiMeter(100d),
+    Centimeter(100d),
     Foot(3.28084),
     Inch(39.3701),
     Yard(1.09361);
