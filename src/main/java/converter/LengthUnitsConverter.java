@@ -5,6 +5,6 @@ package converter;
  */
 public class LengthUnitsConverter {
     public double convert(double amount, Units sourceUnit, Units targetUnit) {
-        return 0;
+        return amount*Units.calculateRatio(sourceUnit,targetUnit);
     }
 }
