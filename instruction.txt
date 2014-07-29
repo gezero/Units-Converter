@@ -1,0 +1,23 @@
+Instructions:
+
+Using either Java or Python please implement the following command-line
+application. The code should be written in accordance with software engineering standards that you would expect in production code.
+
+Length unit converter
+
+This application is used to convert length measurement between different units. For example, metres to centimetres, inches to feet etc.
+
+The application should support: metres (m), centimetres (cm), inches (in), feet (ft) and yards (yd).
+
+The input to this application is a single string argument in the form:
+(length) (unit) in (unit)
+For example:
+10 cm in m
+
+The output should be a single line printed to the standard output in the form:
+(length) (unit) equals (converted length) (unit)
+For the above input the output should be:
+10 cm equals 0.1 m
+
+Please email a zip archive containing the files to:
+interviewtasksubmissions@blinkbox.com and jobs@mailbox.com in the next 3 days (9am on day 4 is the absolute deadline).
